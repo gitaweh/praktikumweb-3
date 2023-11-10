@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RESEP MAKANAN</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ebbb7d;
+      color: #fafaf9;
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+    }
+
+    nav li {
+      margin-right: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #0b0b0a;
+    }
+
+    nav img {
+      width: 100px;
+      height: 100px;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 20px;
+      border: 1px solid #0b0c09;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      background-color: #e8dde7;
+    }
+
+    .cta-button {
+      text-align: center;
+    }
+    /* Tampilan grid layout */
+    .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+        }
+
+        /* Tampilan flexbox */
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .flex-item {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #f5f5f5;
+        }
+
+        /* Membuat gambar dan teks tengah dalam flex item */
+        .flex-item img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .flex-item p {
+            text-align: center;
+        }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Resep Makanan</h1>
+    <center><img src="logo.jpeg" width="150" height="100"></center>
+    <nav>
+      <ul>
+        <li><a href="beranda.html">Beranda</a></li>
+        <li><a href="resep.html">Resep Kami</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="Beranda">
+      <h2>Resep Makanan</h2>
+      <!-- Your content for the "Resep Makanan" section goes here -->
+      <p>Resep masakan adalah takaran yang digunakan untuk membuat masakan (makanan & minuman) yang telah teruji ke akuratannya. Untuk dapat membuat masakan tentunya si pemasak (Juru masak) harus menyiapkan bahan-bahan terlebih dahulu untuk diolah menjadi masakan siap saji.
+        Selain menyiapkan bahan, dalam resep masakan juga tersedia keterangan dan panduan seputar cara mengolah bahan-bahan yang akan dimasak, serta keterangan tentang cara menyajikan hasil masakan tersebut.
+        Ada berberapa faktor yang harus diketahui oleh seorang juru masak ketika mengkreasikan sebuah resep masakan.
+        <li>Berapa lama waktu yang dibutuhkan sebelum masakan yang dibuat mencapai titik basi / rusak.</li>
+        <li>Jumlah kalori yang akan dihasilkan dalam setiap masakan.</li>
+        <li>Durasi yang dibutuhkan untuk memasak makanan.</li>
+        <li>Media untuk menyajikan hasil masakan.</li> </p>
+    </section>
+    <section id="Resep">
+      <h2>Resep Kami</h2>
+      <!-- Your content for the "Resep Kami" section goes here -->
+      <a href="resep.html" class="cta-button">Lihat Resep Kami</a>
+
+      <div class="flex-container">
+        <div class="flex-item">
+       <h2> Oseng Teri Kentang </h2>
+       <center><img src="oseng.png" width="400" height="200"></center>
+       <ul>
+          <b>Bahan</b>
+            <li>3 buah kentang</li>
+            <li>150 gr ikan teri asin</li>
+            <li>Garam, gula, dan kaldu bubuk secukupnya</li>
+      </ul>
+     <ul>
+          <b>Bumbu</b>
+            <li>7 siung bawang merah</li>
+            <li>3 siung bawang putih</li>
+            <li>5 buah cabai merah</li>
+            <li>8 buah cabai rawit merah</li>
+     </ul>
+      <ol>
+         <b>Tahapan</b>
+          <li>Kupas kentang, lalu potong dadu dan goreng hingga matang. Sisihkan.</li>
+          <li>kemudian bilas ikan teri lalu goreng hingga matang. Sisihkan.</li>
+          <li>Panaskan sedikit minyak lalu tumis bawang merah dan bawang putih hingga harum. Kemudian masukkan cabai dan tumis hingga harum.</li>
+          <li>Jangan lupa koreksi rasa, jika sudah pas angkat dan siap disajikan.</li>
+      </ol>
+        </div>
+      <div class="flex-item">
+      <h2>Cah kangkung cumi</h2>
+      <center><img src="cumi.png" width="400" height="200"></center>
+     <ul>
+         <b>Bahan</b>
+          <li>1 ikat kangkung</li>
+          <li>1 ekor cumi</li>
+          <li>1/2 sdm fibercreme</li>
+     </ul>
+      <ul>
+         <b>Bumbu Uleg Kasar</b>
+          <li>4 siung bawang putih</li>
+          <li>1 butir kemiri</li>
+          <li>10 buah cabai rawit</li>
+     </ul>
+      <ul>
+         <b>Bumbu Lengkap</b>
+          <li>Saus tiram</li>
+          <li>Penyedap jamur</li>
+          <li>Garam</li>
+     </ul>
+     <ol>
+        <b>Cara Membuat</b>
+          <li>Siangi kangkung lalu cuci bersih dan tiriskan.</li>
+          <li>Bersihkan cumi lalu potong cincin.</li>
+          <li>Panaskan minyak lalu goreng cumi sampai matang, angkat sisihkan.</li>
+          <li>Tumis bumbu uleg sampai wangi lalu masukkan kangkung dan cumi yang sudah digoreng tadi.</li>
+          <li>Besarkan api lalu tumis cepat, masukkan saus tiram, garam dan penyedap jamur secukupnya. Aduk rata.</li>
+          <li>Aduk rata fibercreme dengan sedikit air hangat lalu tuang ke dalam tumisan.</li>
+          <li>Jangan lupa koreksi rasa, bila sudah pas angkat dan siap disajikan.</li>
+    </ol>
+    </div>
+    <div class="flex-item">
+    <h2> Sosis masak cabai garam </h2>
+    <center><img src="sosis.png" width="400" height="200"></center>
+    <ul> 
+      <b> Bahan </b>
+        <li> 10 sosis potong menjadi 3 </li>
+        <li> 10 cabai merah keriting </li>
+        <li> 6 cabai rawit merah </li>
+        <li> 4 siung bawang merah </li>
+        <li> 1 blok terasi </li>
+        <li> 1 batang daun bawang </li>
+        <li> Garam dan penyedap </li> 
+    </ul>
+    <ol> 
+      <b> Cara Membuat </b>
+        <li> Tumis cabai dan bawang hingga layu, masukkan terasi dan garam serta penyedap </li>
+        <li> Tambahkan minyak sedikit lalu masukkan sosis, masak hingga sosis matang </li>
+        <li> Taburi daun bawang, siap dihidangkan </li>
+    </ol>
+    </div>
+    </section>
+    <section id="kontak">
+      <h2>Kontak Kami</h2>
+      <!-- Your content for the "Kontak Kami" section goes here -->
+      <a href="kontak.html" class="cta-button"> Kontak Kami</a>
+      <p>Informasi - Resep Makanan</p> 
+      <p>Call Center : 18042 (24 Jam)</p>
+      <p>Email : resep-makanan@ihc.id</p>
+    </section>
+  </main>
+   <!-- Form for input -->
+   <h2>Formulir Kontak</h2>
+   <form id="kontakForm">
+     <label for="nama">Nama:</label>
+     <input type="text" id="nama" name="nama"><br><br>
+
+     <label for="email">Email:</label>
+     <input type="email" id="email" name="email"><br><br>
+
+     <label for="pesan">Pesan untuk Resep Makanan yang Ingin Ditambahkan:</label><br>
+     <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea><br><br>
+
+     <button type="button" onclick="tampilkanPesan()">Submit</button>
+   </form>
+ </div>
+<footer>
+  <p>Copyright &copy; 2023 Website Makanan</p>
+</footer>
+<script>
+  function tampilkanPesan() {
+    // Mendapatkan nilai dari input nama, email, dan pesan
+    let nama = document.getElementById("nama").value;
+    let email = document.getElementById("email").value;
+    let pesan = document.getElementById("pesan").value;
+
+    // Validasi input (contoh: nama tidak boleh kosong)
+    if (nama === "") {
+      alert("Nama tidak boleh kosong.");
+      return;
+    }
+
+    // Kirim pesan
+    alert("Pesan terkirim:\nNama: " + nama + "\nEmail: " + email + "\nPesan: " + pesan);
+
+    // Bersihkan formulir setelah pengiriman pesan
+    document.getElementById("nama").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("pesan").value = "";
+  }
+</script>
+</body>
+</html>
